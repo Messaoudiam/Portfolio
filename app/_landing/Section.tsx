@@ -4,7 +4,7 @@ export type SectionProps = PropsWithChildren
 
 export const Section = (props: SectionProps) => {
     return (
-        <section className="py-8 maw-w-2xl m-auto lg:px-4 px-2">
+        <section className="max-w-3xl px-4 m-auto">
             {props.children}
         </section>
     )
