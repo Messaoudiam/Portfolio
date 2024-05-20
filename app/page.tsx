@@ -1,9 +1,9 @@
-import { Hero } from "./_landing/Hero";
+import { Header } from "./_components/Header";
 
 export default function Home() {
   return (
     <main className="h-full">
-      <Hero />
+      <Header />
     </main>
   );
 }
