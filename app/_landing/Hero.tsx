@@ -23,13 +23,13 @@ export const Hero = () => {
         <h2 className="font-caption font-bold text-5xl text-primary">
           Zouggab Messaoud
         </h2>
-        <h3 className="text-3xl font-caption"> web dev </h3>
+        <h3 className="text-3xl font-caption"> web developer </h3>
         <p>
-          I love coding things, currently learning at{" "}
+          I love coding new applications. <br /> Currently learning at{" "}
           <Link href="https://www.wildcodeschool.com/fr-fr/campus/lyon">
             <Code>Wild Code School</Code>
           </Link>{" "}
-          to become Concepteur Développeur d&apos;Applications. Living in{" "}
+          to become Concepteur Développeur d&apos;Applications. <br /> Living in{" "}
           <Code className="inline-flex items-center gap-1">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/110px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png"
@@ -44,7 +44,7 @@ export const Hero = () => {
         <img
           src="https://avatars.githubusercontent.com/u/141563688?v=4"
           alt="messaoud's picture"
-          className="w-full h-auto max-w-xs max-md:w-56"
+          className="w-full h-auto max-w-xs max-md:w-56  transition-transform duration-300 hover:scale-110"
         />
       </div>
     </Section>

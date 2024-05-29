@@ -1,15 +1,20 @@
+// next
 import type { Metadata } from "next";
+
+// fonts
 import { Oswald } from "next/font/google";
-import "./globals.css";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+
+// css
+import "./globals.css";
 
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-caption" });
 
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Messaoud Zouggab. Web Developer",
+  title: "Messaoud Zouggab ⸱ Web Developer",
   description: "Coding Enthusiast",
 };
 
